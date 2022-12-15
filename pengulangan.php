@@ -49,7 +49,7 @@ $mahasiswa = [
         <td><?php 
         $nilai = $data["nilai"];
         
-        if($nilai > 70 ){
+        if($nilai > 75 ){
             echo 'Lulus';
         }else{
             echo 'Tidak Lulus';
